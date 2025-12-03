@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tsx watch api/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "docs": "typedoc"
   },
   "license": "ISC",
   "dependencies": {
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "tsx": "^4.20.6",
+    "typedoc": "^0.28.15",
     "typescript": "^5.9.3"
   }
 }
